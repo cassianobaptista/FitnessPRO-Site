@@ -1,0 +1,40 @@
+.gym-environment {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 4rem;
+}
+
+.gym-environment__title {
+    margin-top: 1.5rem;
+
+}
+
+.gym-environment__content {
+    margin-top: 1.5rem;
+}
+
+.gym-environment__image {
+    max-width: 100%;
+    align-self: center;
+}
+
+@media (min-width: 768px) {
+    .gym-environment {
+        margin-top: 8rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .gym-environment {
+        margin-top: 10rem;
+        flex-direction: row;
+    }
+
+    .gym-environment__image {
+        max-width: 50%;
+    }
+
+    .gym-environment__description-container {
+        padding-right: 3rem;
+    }
+}

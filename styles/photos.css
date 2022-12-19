@@ -1,0 +1,34 @@
+.photos {
+    margin-top: 4rem;
+}
+
+.photos__photos-container {
+    margin-top: 3rem;
+}
+
+.photos__image {
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+@media (min-width: 500px) {
+    .photos__photos-container {
+        column-count: 2;
+        column-gap: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .photos {
+        margin-top: 8rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .photos {
+        margin-top: 10rem;
+    }
+    .photos__photos-container {
+        column-count: 3;
+    }
+}

@@ -1,0 +1,64 @@
+.services {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.services__image {
+    max-width: 100%;
+    align-self: center;
+}
+
+.services__title {
+    margin-top: 1.5rem;
+}
+
+.services__content {
+    margin-top: 1.5rem;
+}
+
+.services__item {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 3rem;
+}
+
+.services__info {
+    margin-left: 1.5rem;
+}
+
+.services__item-title {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 1.8rem;
+}
+
+.services__item-content {
+    margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .services {
+        margin-top: 8rem;
+    }
+}
+
+@media (min-width: 900px) {
+    .services {
+        margin-top: 10rem;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 80rem;
+        background-image: url(/assets/ball-pattern.svg);
+        background-repeat: no-repeat;
+        background-position: 3rem 42rem;
+    }
+    .services__image {
+        width: 42%;
+        align-self: flex-start;
+    }
+
+    .services__description-container {
+        width: 50%;
+    }
+}

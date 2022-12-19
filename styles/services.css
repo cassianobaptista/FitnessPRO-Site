@@ -49,7 +49,7 @@
         flex-direction: row;
         justify-content: space-between;
         height: 80rem;
-        background-image: url(/assets/ball-pattern.svg);
+        background-image: url(assets/ball-pattern.svg);
         background-repeat: no-repeat;
         background-position: 3rem 42rem;
     }

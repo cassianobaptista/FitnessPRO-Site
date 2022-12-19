@@ -48,10 +48,7 @@
         margin-top: 10rem;
         flex-direction: row;
         justify-content: space-between;
-        height: 80rem;
-        background-image: url(assets/ball-pattern.svg);
-        background-repeat: no-repeat;
-        background-position: 3rem 42rem;
+        height: 60rem;
     }
     .services__image {
         width: 42%;
